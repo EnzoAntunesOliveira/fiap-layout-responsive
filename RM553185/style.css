@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: coral;
+    flex-direction: row;
+}
+
+ul > li{
+    padding: 10px;
+}
+
+@media screen/*print*/ and (max-width:600px) and (max-width:1200px){
+    ul{
+        flex-direction: column;
+    }
+}
+
